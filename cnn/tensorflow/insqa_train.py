@@ -52,8 +52,8 @@ vectors = ''
 print('x_train_1', np.shape(x_train_1))
 print("Load done...")
 
-val_file = '/export/jw/cnn/insuranceQA/test1'
-precision = '/export/jw/cnn/insuranceQA/test1.acc'
+val_file = '/export/home/aiusr/xieqingxi/projects/insuranceQA-cnn-lstm/insuranceQA/test1'
+precision = '/export/home/aiusr/xieqingxi/projects/insuranceQA-cnn-lstm/insuranceQA/test1.acc'
 #x_val, y_val = data_deepqa.load_data_val()
 
 # Training

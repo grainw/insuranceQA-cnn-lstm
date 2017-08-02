@@ -93,14 +93,14 @@ def read_vector(vectors, word):
 
 def load_test_and_vectors():
     testList = []
-    for line in open('/export/jw/cnn/insuranceQA/test1'):
+    for line in open('/export/home/aiusr/xieqingxi/projects/insuranceQA-cnn-lstm/insuranceQA/test1'):
         testList.append(line.strip())
     vectors = load_vectors()
     return testList, vectors
 
 def load_train_and_vectors():
     trainList = []
-    for line in open('/export/jw/cnn/insuranceQA/train'):
+    for line in open('/export/home/aiusr/xieqingxi/projects/insuranceQA-cnn-lstm/insuranceQA/train'):
         trainList.append(line.strip())
     vectors = load_vectors()
     return trainList, vectors
@@ -117,7 +117,7 @@ def load_data_val_10(testList, vectors, index):
 
 def read_raw():
     raw = []
-    for line in open('/export/jw/cnn/insuranceQA/train'):
+    for line in open('/export/home/aiusr/xieqingxi/projects/insuranceQA-cnn-lstm/insuranceQA/train'):
         items = line.strip().split(' ')
         if items[0] == '1':
             raw.append(items)

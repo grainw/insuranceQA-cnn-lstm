@@ -1,4 +1,4 @@
-
+#-*-coding:utf-8 -*-
 ###########################################################
 # test1 top-1 precision: 62%
 ###########################################################
@@ -13,9 +13,17 @@ from theano.tensor.signal import pool
 from theano.tensor.nnet import conv2d
 
 #TODO change path to your dataset
-trainfile = '/export/jw/cnn/insuranceQA/train'
-test1file = '/export/jw/cnn/insuranceQA/test1'
-vectorsfile = '/export/jw/cnn/insuranceQA/vectors.nobin'
+# trainfile = '/export/jw/cnn/insuranceQA/train'
+# test1file = '/export/jw/cnn/insuranceQA/test1'
+# vectorsfile = '/export/jw/cnn/insuranceQA/vectors.nobin'
+
+# trainfile = '../insuranceQA/train'
+# test1file = '../insuranceQA/test1.sample'
+# vectorsfile = '../insuranceQA/vectors.nobin'
+
+trainfile = '../insurannceQA/train'
+test1file = '../insuranceQA/test1.sample'
+vectorsfile = '../insuranceQA/vectors.nobin'
 
 ###########################################################
 # read qa data
